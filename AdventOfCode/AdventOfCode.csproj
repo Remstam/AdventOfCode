@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AdventOfCode._2021.Day11</StartupObject>
+    <StartupObject>AdventOfCode._2020.Day8</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -42,12 +42,16 @@
     <Content Include="2016\input13.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="2020\input8.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="2021\input11.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2016\Day13.cs" />
+    <Compile Include="2020\Day8.cs" />
     <Compile Include="2021\Day11.cs" />
   </ItemGroup>
   <ItemGroup>
